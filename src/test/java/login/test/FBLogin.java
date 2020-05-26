@@ -69,7 +69,5 @@ private void correctPass() throws InterruptedException {
 	pass.sendKeys("Kutty@5924");
 
 	WebElement click = driver.findElement(By.id("u_0_b"));
-	
-	click.click();
 }
 	}
