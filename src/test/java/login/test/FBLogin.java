@@ -68,6 +68,6 @@ private void correctPass() throws InterruptedException {
 	WebElement click = driver.findElement(By.id("u_0_b"));
 	
 	click.click();
-	Thread.sleep(5000);
+	Thread.sleep(2000);
 }
 }
