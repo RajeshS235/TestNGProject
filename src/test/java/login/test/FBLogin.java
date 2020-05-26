@@ -70,19 +70,4 @@ private void correctPass() throws InterruptedException {
 	click.click();
 	Thread.sleep(5000);
 }
-	@Test(priority=-1)
-private void incorrectUserPass() {
-		driver.get("https://www.facebook.com/");
-	WebElement user = driver.findElement(By.id("email"));
-	
-	user.sendKeys("wronguser");
-	
-	WebElement pass = driver.findElement(By.id("pass"));
-
-	pass.sendKeys("wrongpass");
-
-	WebElement click = driver.findElement(By.id(""));
-	
-	click.click();
-}
 }
