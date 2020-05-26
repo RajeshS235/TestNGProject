@@ -26,6 +26,9 @@ public class FBLogin {
 		driver.get("https://www.facebook.com/");
 		WebElement user = driver.findElement(By.id("email"));
 		
+		
+		
+		
 		user.sendKeys("rajeshsv.1987@gmail.com");
 		
 		WebElement pass = driver.findElement(By.id("pass"));
@@ -68,6 +71,5 @@ private void correctPass() throws InterruptedException {
 	WebElement click = driver.findElement(By.id("u_0_b"));
 	
 	click.click();
-	Thread.sleep(5000);
 }
 	}
